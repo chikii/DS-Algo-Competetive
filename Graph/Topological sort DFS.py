@@ -1,4 +1,4 @@
-# we check whether the node is in visited stack ir not by using graph coloring
+# we check whether the node is in visited stack or not by using graph coloring
 # white- > not visited
 # gray -> in visiting stack
 # black -> visited

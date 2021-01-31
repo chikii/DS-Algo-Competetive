@@ -1,8 +1,9 @@
 # in this algorithm, we will take care of incomming edges
+"""
 if incomming edges is = 0
 it means we have no dependencies left. and we can add this in our queue to visit this.
 this implement by using BFS
-
+"""
 ## NOTE : a -> b , represent b is dependent to a.
 
 in_degree = {}
