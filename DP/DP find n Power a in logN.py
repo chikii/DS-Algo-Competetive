@@ -1,7 +1,7 @@
 
 fun_call = 0
 
-def power(a,n):
+def power(a,n): # reccur
     global fun_call
 
     fun_call += 1
@@ -18,6 +18,19 @@ def power(a,n):
         dp[n] = power(a,n-1)*a
     
     return dp[n]
+
+
+def powerIter(a,b): # iterative
+    res = 1
+    while b>0:
+        if b&1:
+            res = res*a
+
+        b = b>>1
+        a = a*a
+    
+    return res
+
 
 n = 12
 a = 2

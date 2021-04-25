@@ -4,7 +4,7 @@ def dfs(src, par):
     for v in graph[src]:
         if v != par:
             p[v] = src
-            h[v] = h[src] + 1 
+            depth[v] = depth[src] + 1 
             sum_from_root[v] = sum_from_root[src] + weight[v]
             dfs(v,src)
 
@@ -13,12 +13,12 @@ def lca(u,v):
     if u == v:
         return u
     
-    if h[u] == h[v]:
+    if depth[u] == depth[v]:
         u = p[u]
         v = p[v]
         return lca(u,v)
     
-    if h[u] > h[v]:
+    if depth[u] > depth[v]:
         return lca(p[u],v)
     
     return lca(u,p[v])
@@ -38,11 +38,12 @@ if __name__ == "__main__":
     # intializing
     p = [0]*V
     sum_from_root = [0]*V
-    h = [0]*V
+    depth = [0]*V
 
     # base condition
     p[0] = -1 
     sum_from_root[0] = weight[0]
+    depth[0] = 0
 
     dfs(0,-1)
 

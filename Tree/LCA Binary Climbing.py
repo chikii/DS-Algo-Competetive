@@ -68,7 +68,7 @@ def lca(u,v):
     lca_ = p[u][0]
     return lca_
 
-def dfs(u,prv:
+def dfs(u,prv):
     h[u] = h[prv]+1
     p[u][0] = prv
     for v in adj[u]:
