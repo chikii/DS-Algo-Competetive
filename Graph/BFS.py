@@ -13,7 +13,7 @@ def bfs(src,desti):
     visited[src] = True # mark src visited
 
     bfsTree = []
-    while len(queue) != 0:
+    while queue:
         
         node = queue.popleft() # took the oldest elemnt of queue (whihc is the 1st element) and process it.
         #visited[node] = True  ## This should be done down only if done here instead of downwards then time complexity will increase

@@ -35,7 +35,7 @@ color = {node: white for node in range(num_of_nodes)} # initally every node is o
 
 for node in range(num_of_nodes):
     if color[node] == white:
-        dfs(i)
+        dfs(node)
 
 if isCycle:
     print('there is a cycle in dependencies.')

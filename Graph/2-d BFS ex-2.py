@@ -65,8 +65,7 @@ print('\n')
 print('on each second we will go right and down adjacent cells of curr cell in queue (if not visited and valid.)')
 while len(queue) != 0:
 
-    u = queue[0]
-    queue.remove(u)
+    u = queue.pop(0)
     x,y = u
     for i in range(2):
         if valid( x+dx[i] , y+dy[i]) and d[x + dx[i]][y+dy[i]] == -1: 

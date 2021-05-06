@@ -11,10 +11,10 @@ def Krushkal(edges):
     mst = []
 
     edges.sort() # sort the edges
-
+    n = len(edges)
     j = 0
     edges_include = 0
-    while edges_include < V-1 and j < len(edges):
+    while edges_include < V-1 and j < n:
         edge = edges[j]
 
         u = edge[1][0]
