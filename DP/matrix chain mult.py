@@ -1,4 +1,5 @@
 # Q) Minimum cost of reducing Array by merging any adjacent elements repetitively
+# Q) Matrix chain multiplication...
 
 # Input: arr[] = { 6, 4, 4, 6 } 
 # Output: 40 

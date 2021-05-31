@@ -1,6 +1,7 @@
 high priorit->
 1. Implement a LIFO data structure that has the following operations: Push, Pop, GetMiddle, DeleteMiddle 
 #DONE
+
 2. pattern
 1
 11
