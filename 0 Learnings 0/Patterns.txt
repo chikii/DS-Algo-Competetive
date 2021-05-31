@@ -1,0 +1,37 @@
+# this file will contain the way/patterns i solve the problem when i got stuck.
+
+1. Reccurssive Solution
+> Mostly They are Top-Down. 
+> but, bottom up is more intutive.
+
+2. Dynamic Programming
+> always try to think the subproblem.
+> dp is nothing but a sub problem solution. 
+> First Define dp before creating it. but for defining i need to understand it. try doing it on copy and find pattern.
+that, how it is using previous values to get new value.
+> define / Initialize Base condition.
+
+3. Use Two Pointer Approch
+
+4. Try to perform operation to get ANSWER directly.
+manjhe -> you have an solution. in which you perform some operation and by backtracking you get answer.
+instead of build solution in such way that your last operation give answer direclty.
+
+5. While solving question of TREE.
+try-> DFS (InOrder, PreOrder, PostOrder)
+ 	  BFS
+ 	  Recurrsion.
+
+
+6. Use sliding window.
+	When you need to keep track of m things in array of size n. MAKE A WINDOW OF SIZE M.
+	
+	window size - m
+	 . . . . . . . . . . . . . . . . . ...n
+	|<-WINDOW->|
+
+IMP-> Always define what will window contains. 
+ex1 -> window // this window will conatin at most M zeros.
+ex2 -> window // this window will conatin at most M elements of array.
+
+

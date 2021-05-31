@@ -1,0 +1,26 @@
+2. what are domains in which Amazon deals.
+3. Round Robin Scheduling. (2020)
+4. page faults in Operating Systems and asked me about the various page replacement algorithms.(2020)
+5. what is LRU cache (2020)
+13. Difference between semaphore and mutex 
+14. Discussion of deadlock conditions, deadlock prevention, and recovery 
+15. Normalisation (DBMS)
+16. Converting a given table to 2NF then 3NF and BCNF. (DBMS)
+18. Some questions based on DBMS (basic queries)  (DBMS)
+21. 2 Approaches: Reversing the linked list and then adding or Recursion. 
+Gave both the solutions. Then the question was: In case of a billion digits, 
+which would you prefer? Recursion has a lesser time complexity but, 
+a normal system won’t be able to operate so much on recursion,
+as there will be a stack overflow. Hence for a billion digits 
+we have to go with reversing the linked list and then adding each digits.
+22. Questions on Sorting and Searching algorithms complexity.
+19. A variant of Binary tree traversal. I was given a tree and the output was 
+given had to identify the type of traversal and then code it out. 
+20. Time complexity of Binary Tree: Searching, Inserting
+23. What is BGP(Border Gateway Protocol)?
+24. What is Link State Routing? How does it work?
+25. What is OSPF?
+26. TCP/IP model and OSI model.
+27. Virtual Memory
+47. Difference between ipv4 and ipv6 except for the length.
+48. What is memory virtualization?
