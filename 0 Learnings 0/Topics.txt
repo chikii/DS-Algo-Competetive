@@ -1,0 +1,30 @@
+Q - Clarifying Questions
+R - Points to Remmeber while writting code
+A - Important Algorithms
+
+strings ->
+	A) manachar's algo
+	A) character matching
+	A) LPS
+	A) KMP
+	A) Z-function
+
+
+TREE ->
+	Q) What types of value in Nodes, any pattern they will follow?
+	Q) what to do with null tree
+	Q) what to do at root node.
+
+	R) Make sure what variable to kept gloabal, because in recurssion variable don't get change.
+	R) while finding Time and Space Complexity, Also Discuss about 'Skweed tree'
+
+	A) DFS
+	A) BFS
+	A) moris algo
+	A) iterator
+
+
+Graph ->
+	Q) are there Self edges
+	Q) are there parallel edges
+	Q) what if path does not exist
