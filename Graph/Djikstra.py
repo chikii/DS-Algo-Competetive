@@ -29,7 +29,7 @@ def djikstra(src):
     d[src] = 0 # mark the dist from src to src is 0
     
     
-    while not all(visited):  # wile all node is not visited.
+    while h:  # wile all node is not visited.
         dist_till_node, node = heapq.heappop(h)      # pop the minimimum distance node.
         if visited[node] : continue # if it is visited continue
         visited[node] = True        # else mark it visited
