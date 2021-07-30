@@ -3,7 +3,8 @@
 # space -> V^2
 
 # IDEA -> we just check is there any shorter path to reach from u to v via K. for all u, v and for all K
-
+#  -> we take each node as an intermediate node. and try to relax each edge.
+        # relax edge => d[y] = min(d[y], d[x]+ w(x, y))
 
 
 # graph is a matrix , 1 means there's a edge
@@ -12,6 +13,8 @@ def floydWarshell(graph):
     n = len(graph)
     int_max = float('inf')
     res = [[int_max]*n for i in range(n)]
+    for i in range(n):
+        res[i][i] = 0
 
     for K in range(n):
         shortestPathVia_K(K, graph, res)
